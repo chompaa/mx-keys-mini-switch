@@ -1,0 +1,9 @@
+[package]
+name = "mx-keys-switcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hidapi = "2.6"
+anyhow = "1.0"
+clap = { version = "4", features = ["derive"] }
